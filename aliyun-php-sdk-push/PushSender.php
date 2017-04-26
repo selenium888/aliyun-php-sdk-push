@@ -3,11 +3,11 @@
 namespace Selenium888\Aliyun\Push;
 
 use Selenium888\Aliyun\Push\Push\Request\V20160801 as Push;
-use Selenium888\Aliyun\Core\Profile\DefaultProfile;
-use Selenium888\Aliyun\Core\DefaultAcsClient;
-use Selenium888\Aliyun\Core\Regions\ProductDomain;
-use Selenium888\Aliyun\Core\Regions\Endpoint;
-use Selenium888\Aliyun\Core\Regions\EndpointProvider;
+use Superman2014\Aliyun\Core\Profile\DefaultProfile;
+use Superman2014\Aliyun\Core\DefaultAcsClient;
+use Superman2014\Aliyun\Core\Regions\ProductDomain;
+use Superman2014\Aliyun\Core\Regions\Endpoint;
+use Superman2014\Aliyun\Core\Regions\EndpointProvider;
 
 $regionIds = ['cn-hangzhou', 'cn-beijing', 'cn-qingdao', 'cn-hongkong', 'cn-shanghai', 'us-west-1', 'cn-shenzhen', 'ap-southeast-1'];
 $productDomains = [

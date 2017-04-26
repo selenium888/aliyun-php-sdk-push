@@ -19,7 +19,7 @@
  */
 namespace Selenium888\Aliyun\Push\Push\Request\V20160801;
 
-use Selenium888\Aliyun\Core\RpcAcsRequest;
+use Superman2014\Aliyun\Core\RpcAcsRequest;
 
 class PushMessageToAndroidRequest extends RpcAcsRequest
 {
